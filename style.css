@@ -1,0 +1,195 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.ball{
+	position: absolute;
+	background: red;
+	width: 100px;
+	height: 100px;
+	background-image: url('image/tom.jpg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	animation: walking 4s infinite;
+	top: 30px;
+	left: 50px;
+}
+
+@keyframes walking{
+0%{
+	top: 30px;
+	left: 50px;
+}
+25%{
+	top: 50px;
+	left: 950px;
+}
+
+50%{
+   
+	right: 70px;
+	top: 400px;
+
+}
+
+75%{
+
+bottom: 50px;
+right: 350px;	
+}
+
+100%{
+
+	left: 50px;
+	bottom: 480px;
+}
+}
+
+.cc{
+	position: relative;
+	background: blue;
+
+	animation: background 10s infinite;
+}  
+
+@keyframes background{
+
+0%{
+	background:blue ;
+}
+
+25%{
+
+	background: red;
+}
+
+50%{
+
+background: yellow;
+
+}
+
+100%{
+background: #0AEECC;
+
+}
+
+}
+
+.uu{
+position: absolute;
+background: none;
+background-image: url('image/download.jpg');
+background-size: cover;
+background-position: center;
+height: 70px;
+width: 70px;
+border-radius: 50%;
+animation: second 4s infinite;
+top: 20px;
+right: 0px;
+
+}
+
+@keyframes second{
+
+0%{
+
+top: 20px;
+right: 0px;
+
+}
+
+25%{
+
+	top: 20px;
+	right: 1260px;
+}
+
+50%{
+
+top: 530px;
+left: 0px;
+
+
+}
+
+75%{
+
+bottom:10px;
+right:0px;
+
+}
+
+100%{
+top: 50px;
+right: 700px;
+
+}
+}
+
+.rr{
+position: absolute;
+background: none;
+height: 100px;
+width: 100px;
+border-radius: 50%;
+background-image: url('image/dorimon.jpg');
+background-size: cover;
+background-position:center ;
+animation: runing 4s infinite;
+top: 0px;
+left: 600px;
+
+}
+
+@keyframes runing {
+
+0%{
+top: 0px;
+left: 600px;
+
+}
+
+25%{
+
+ left: 600px;
+ top: 510px;
+}
+}
+
+
+
+
+
+.last{
+position: absolute;
+background: none;
+height: 100px;
+width: 100px;
+border-radius: 50%;
+background-image: url('image/naughtyboy.jpg');
+background-size: cover;
+background-position:center ;
+animation: boy 4s infinite;
+top: 250px;
+left:0px;
+
+}
+
+@keyframes boy {
+
+0%{
+top: 250px;
+left: 0px;
+
+}
+
+25%{
+
+ left: 1280px;
+ top: 250px;
+}
+}
